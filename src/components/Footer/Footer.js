@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <div className="py-2 m-0 text-center text-white bg-dark">
-           <div className="grid">
+           <div>
            <div>
                 <h3>STAMFORD UNIVERSITY</h3>
             </div>

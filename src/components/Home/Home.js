@@ -59,15 +59,15 @@ const Home = () => {
       <Container>
 <div className="row row-cols-1 row-cols-md-3">
             {
-                courses.map(course => <div>
-                            <div class="col g-4">
+                courses.map(course => <div className="my-4">
+                            <div className="col g-4">
+                                
+                                <div className="card mx-2">
                                 <img src={course.images} alt="" />
-                                <div class="card">
-                                    <img src="" alt="" />
-                                    <div class="card-body">
-                                        <h5 class="card-title">{course.coursetitle}</h5>
-                                        <p class="card-text">{course.courseduration}</p>
-                                        <p class="card-text">{course.courseid}</p>
+                                    <div className="card-body">
+                                        <h5 className="card-title">{course.coursetitle}</h5>
+                                        <p className="card-text">{course.courseduration}</p>
+                                        <p className="card-text">{course.courseid}</p>
                                     </div>
                                 </div>
                             </div>
