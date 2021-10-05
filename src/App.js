@@ -31,13 +31,9 @@ function App() {
           <Route path="/admission">
              <Admission></Admission>
           </Route>
-
-          
-
           <Route exact path="/">
             <Home></Home>
           </Route>
-
           <Route>
             <NotFound></NotFound>
           </Route>

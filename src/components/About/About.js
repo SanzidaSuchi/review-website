@@ -15,12 +15,10 @@ const About = () => {
           <p>The University of Stamford is western Canada’s first university, established in 1877, and located on original lands of Anishinaabeg, Cree, Oji-Cree, Dakota, and Dene peoples, and on the homeland of the Métis Nation. We are Manitoba's only research-intensive university, and one of the country’s top research institutions. We have more than 29,000 undergraduate and graduate students, and more than 145,000 alumni living in 140 countries.
 
         </p>
-        <button className="bg-warning">Learn More</button>
+        <button type="button" className="btn btn-warning">Learn More</button>
         
 
         <hr></hr>
-
-      
         </div>
     );
 };

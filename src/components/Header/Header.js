@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
+// import logo from '../images/education logo.jpg';
 
 import { NavLink } from 'react-router-dom';
 
@@ -8,7 +9,7 @@ const Header = () => {
   const linkStyle = {
     color: "white",
     textDecoration: "none",
-    marginLeft: "15px",
+    marginLeft: "30px",
   };
   const currentStyle = {
     fontWeight: "bold",
@@ -16,9 +17,11 @@ const Header = () => {
   };
   return (
     <div>
+     
       <Navbar bg="dark" expand="lg">
         <Container>
           <NavLink style={linkStyle} to="/home">
+          {/* <img width="90px" className="logo" src={logo} alt="" /> */}
             <Navbar.Brand className="text-white">STAMFORD UNIVERSITY</Navbar.Brand>
           </NavLink>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
