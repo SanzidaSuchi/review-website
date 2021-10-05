@@ -21,10 +21,8 @@ const Home = () => {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3 className="text-primary">First slide label</h3>
-            <p className="text-primary">
-              Nulla vitae elit libero, a pharetra augue mollis interdum.
-            </p>
+            <h3 className="text-primary">Campus Area</h3>
+            
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -35,10 +33,8 @@ const Home = () => {
           />
 
           <Carousel.Caption>
-            <h3 className="text-primary">Second slide label</h3>
-            <p className="text-primary">
-               consectetur adipiscing elit.
-            </p>
+            <h3 className="text-primary">We are commited to build your skills</h3>
+            
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -49,10 +45,8 @@ const Home = () => {
           />
 
           <Carousel.Caption>
-            <h3 className="text-primary">Third slide label</h3>
-            <p className="text-primary">
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
+            <h3 className="text-primary">We provie lots of faculties</h3>
+            
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
